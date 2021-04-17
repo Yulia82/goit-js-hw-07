@@ -1,0 +1,53 @@
+body {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: -10px;
+}
+
+/* стили для li */
+.item {
+  margin: 10px;
+  width: calc(100% / 3 - 20px);
+}
+
+/* стили для картинок */
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+/* стили для задачи 06 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+/* стили для задачи 08 */
+.margin-box {
+  margin-bottom: 10px;
+}
