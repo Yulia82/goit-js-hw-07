@@ -43,7 +43,7 @@ function callback() {
 
 btnCreate.addEventListener('click', callback);
 
-// фукция удаляет сщзданные div и очищает поле input
+// фукция удаляет созданные div и очищает поле input
 function destroyBoxes() {
     boxParentRef.innerHTML = '';
     inputRef.value = '';
